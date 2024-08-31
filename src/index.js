@@ -9,11 +9,12 @@ enviarFormulario.addEventListener("click", ()=>{
         if(input.value){
             todosOsInputs[index].classList.add("campo-preenchido")
             todosOsInputs[index].classList.remove("campo-nao-preenchido")
+            campoObrigatorio[index].classList.remove("campo-obrigatorio-aparecendo")
 
         }else {
             todosOsInputs[index].classList.add("campo-nao-preenchido")
             todosOsInputs[index].classList.remove("campo-preenchido")
-            campoObrigatorio[index].classList.add("campo-obrigatorio-aparecendo")
+            campoObrigatorio[index].classList.add("campo-obrigatorio-aparecendo")     
         }      
     })
 })
