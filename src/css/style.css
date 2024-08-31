@@ -43,7 +43,7 @@ h1 {
 
  .inputs-campos {
     border-radius: 5px;
-    width: 490px;
+    width: 510px;
     height: 40px;
     font-size: 22px;
     padding: 8px 9px;
@@ -67,6 +67,7 @@ h1 {
     height: 200px;
     font-size: 22px;
     padding: 8px 9px;
+    resize: none;
 }
 
 #enviar {
